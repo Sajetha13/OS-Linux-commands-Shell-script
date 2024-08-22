@@ -42,24 +42,24 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-![file1](file1.png)
+![file1](/img/file1.png)
 
 cat < file2
 ## OUTPUT
-![file2](file2.png)
+![file2](/img/file2.png)
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- ![cmp](cmp.png)
+ ![cmp](/img/cmp.png)
 
 comm file1 file2
  ## OUTPUT
-![comm](comm.png)
+![comm](/img/comm.png)
  
 diff file1 file2
 ## OUTPUT
-![diff](diff.png)
+![diff](/img/diff.png)
 
 #Filters
 
