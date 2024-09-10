@@ -343,6 +343,7 @@ sed -n '2,4{s/^/$/;p}' file23
 
 
 sed -n '2,4{s/$/*/;p}' file23
+## OUTPUT
 ![image](https://github.com/user-attachments/assets/62702896-0f62-4661-a305-a37d35797ca4)
 
 
@@ -409,7 +410,8 @@ cat urllist.txt | tr -d ' ' | tr -s '.'
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-[Screenshot 2024-09-10 133724](https://github.com/user-attachments/assets/a9bf0aa3-4354-4591-9e44-9fae8a472a53)
+
+![Screenshot 2024-09-10 133724](https://github.com/user-attachments/assets/a9bf0aa3-4354-4591-9e44-9fae8a472a53)
 
 
 mkdir backupdir
