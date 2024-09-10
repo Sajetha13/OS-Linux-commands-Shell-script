@@ -357,6 +357,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+![Screenshot 2024-09-10 133403](https://github.com/user-attachments/assets/2d17719b-a607-4bc7-9c9a-8eb4cf380402)
 
 
 cat > file22
@@ -370,6 +371,7 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
+![Screenshot 2024-09-10 133426](https://github.com/user-attachments/assets/53b7be8d-2884-4362-ba6b-6972f0241233)
 
 
 
@@ -377,6 +379,7 @@ uniq file22
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+![Screenshot 2024-09-10 133320](https://github.com/user-attachments/assets/08548ed0-4662-41fb-a965-bfce97b9d58c)
 
 cat < urllist.txt
 ```
@@ -393,17 +396,20 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+![Screenshot 2024-09-10 133802](https://github.com/user-attachments/assets/6854ccfc-dc45-4e1a-abc8-193b36a5c195)
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
+![Screenshot 2024-09-10 133744](https://github.com/user-attachments/assets/c720587d-c38a-4f46-a5b9-664b10837127)
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+[Screenshot 2024-09-10 133724](https://github.com/user-attachments/assets/a9bf0aa3-4354-4591-9e44-9fae8a472a53)
 
 
 mkdir backupdir
@@ -412,18 +418,22 @@ mv backup.tar backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/d9d09d49-79d3-4df4-bab2-4b57a9aede59)
 
 
 tar -xvf backup.tar
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/448eceac-de1c-4833-9e92-9aaa091dd2c1)
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- 
+ ![image](https://github.com/user-attachments/assets/f4a4da3a-9262-4285-b2e1-e0ce9a3a3f16)
+
 gunzip backup.tar.gz
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/5ca72276-29e6-46f1-87e3-5c6eaaf3b028)
 
  
 # Shell Script
