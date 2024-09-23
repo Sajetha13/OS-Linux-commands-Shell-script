@@ -445,7 +445,6 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 ```
 chmod 755 my-script.sh
 ./my-script.sh
-## OUTPUT
 
  
 cat << stop > herecheck.txt
@@ -458,6 +457,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/f84fbc68-2fa5-48e3-b119-2cf80bb25663)
 
 
 cat < scriptest.sh 
@@ -496,26 +496,32 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/448b8899-b68a-4478-a9ca-a850dd50f222)
 
  
 ls file1
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/4f709d5a-89df-4081-870a-9efb89f6f408)
 
 echo $?
 ## OUTPUT 
+![image](https://github.com/user-attachments/assets/5771ef9f-e330-4b95-8101-bc447506ed1b)
+
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- 
+ ![image](https://github.com/user-attachments/assets/e268979f-ada2-451e-8404-012dca5e72d9)
+
 abcd
  
 echo $?
  ## OUTPUT
 
 
- 
+ ![image](https://github.com/user-attachments/assets/d0b9bf89-f848-483b-8212-ef93c3594c2b)
+
 # mis-using string comparisons
 
 cat < strcomp.sh 
@@ -544,7 +550,8 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT
+## OUTPUT
+![image](https://github.com/user-attachments/assets/7c283d88-aeca-403f-9fad-4e54c7755432)
 
 
 
@@ -553,6 +560,7 @@ chmod 755 strcomp.sh
 ./strcomp.sh 
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/4abd3ebb-b148-4742-ac46-5092fb4cb57e)
 
 # check file ownership
 cat < psswdperm.sh 
