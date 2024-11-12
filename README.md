@@ -814,7 +814,8 @@ $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
  ## OUTPUT
- ![image](https://github.com/user-attachments/assets/5674f61b-c849-4748-aa28-1419af6e9b01)
+
+![image](https://github.com/user-attachments/assets/5674f61b-c849-4748-aa28-1419af6e9b01)
 
  
 cat untiltest.sh 
@@ -829,7 +830,7 @@ done
 ``` 
 $ chmod 755 untiltest.sh
  
- ![image](https://github.com/user-attachments/assets/07328cfd-dde9-4524-a86c-6a5894c309f8)
+![image](https://github.com/user-attachments/assets/07328cfd-dde9-4524-a86c-6a5894c309f8)
 
  
 cat forin1.sh 
@@ -843,7 +844,7 @@ done
  ```
  
 $ chmod 755 forin1.sh
- ![image](https://github.com/user-attachments/assets/4b5f1e78-8247-4cb9-8263-6921180e4085)
+![image](https://github.com/user-attachments/assets/4b5f1e78-8247-4cb9-8263-6921180e4085)
 
  
 cat forin2.sh 
@@ -858,7 +859,7 @@ done
  
 $ chmod 755 forin2.sh
 $ ./forin2.sh 
- ![image](https://github.com/user-attachments/assets/6e88d24c-b494-4d7a-af50-8ac80b042bf6)
+![image](https://github.com/user-attachments/assets/6e88d24c-b494-4d7a-af50-8ac80b042bf6)
 
 
  
@@ -872,7 +873,7 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
- ![image](https://github.com/user-attachments/assets/59ad5c4c-0bd3-4855-8d21-8d9dcba7e063)
+![image](https://github.com/user-attachments/assets/59ad5c4c-0bd3-4855-8d21-8d9dcba7e063)
 
 cat forinfile.sh 
 ```bash
@@ -923,6 +924,7 @@ done
 $ chmod 755 forctype1.sh
 $ ./forctype1.sh 
 ## OUTPUT
+
 ![image](https://github.com/user-attachments/assets/d93aab9b-1d4a-4ea0-be8d-1e110554317e)
 
 cat fornested1.sh 
@@ -964,7 +966,7 @@ $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
 ## OUTPUT
- ![image](https://github.com/user-attachments/assets/992d70ac-290c-4b57-b366-031600d2d9ab)
+![image](https://github.com/user-attachments/assets/992d70ac-290c-4b57-b366-031600d2d9ab)
 
 cat forbreak.sh 
 ```bash
@@ -986,7 +988,7 @@ $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
 ## OUTPUT
- ![image](https://github.com/user-attachments/assets/e4d7b54b-1130-4cb5-99e6-0596413267fc)
+![image](https://github.com/user-attachments/assets/e4d7b54b-1130-4cb5-99e6-0596413267fc)
 
 cat exread.sh 
 ```bash
@@ -1014,6 +1016,7 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 $ ./exread1.sh 
 ## OUTPUT
+
 ![image](https://github.com/user-attachments/assets/0d4474c3-8c55-427a-bcf8-b2f36fe17231)
 
 
@@ -1038,10 +1041,10 @@ fi
 ## OUTPUT
  ./funcex.sh 
 
- ![image](https://github.com/user-attachments/assets/28713a0b-050f-49c4-abcc-060e1eb9d085)
+![image](https://github.com/user-attachments/assets/28713a0b-050f-49c4-abcc-060e1eb9d085)
 
  ./funcex.sh 1 2
-![image](https://github.com/user-attachments/assets/537cc739-f609-4af7-8dcc-3a2e44278930)
+ ![image](https://github.com/user-attachments/assets/537cc739-f609-4af7-8dcc-3a2e44278930)
 
  
 cat argshift.sh
@@ -1056,7 +1059,8 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- ![image](https://github.com/user-attachments/assets/2a00f75b-77a4-4194-8592-e6cb6e9e4db7)
+
+![image](https://github.com/user-attachments/assets/2a00f75b-77a4-4194-8592-e6cb6e9e4db7)
 
  cat argshift1.sh
 ```bash
@@ -1074,7 +1078,8 @@ done
 $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- ![image](https://github.com/user-attachments/assets/ae81e9f5-344d-4868-95b8-bb5abf83d615)
+
+![image](https://github.com/user-attachments/assets/ae81e9f5-344d-4868-95b8-bb5abf83d615)
 
 cat argshift.sh
 ```bash
@@ -1088,6 +1093,7 @@ set +x
 ```
 ## OUTPUT
  ./argshift.sh 1 2 3
+ 
  ![image](https://github.com/user-attachments/assets/e4d3d73f-983e-4b74-936d-a280d9f6aad4)
 
  
@@ -1120,7 +1126,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- ![image](https://github.com/user-attachments/assets/9a8f7006-7559-4e77-b4d8-c26ade89cda0)
+
+![image](https://github.com/user-attachments/assets/9a8f7006-7559-4e77-b4d8-c26ade89cda0)
 
 cat > palindrome.sh
 ```bash
