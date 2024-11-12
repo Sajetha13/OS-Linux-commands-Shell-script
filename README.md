@@ -775,6 +775,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+
 ![image](https://github.com/user-attachments/assets/f5c0c01e-b35a-4a51-908a-9795cbb17149)
 
 # using the case command
@@ -796,6 +797,7 @@ $ chmod 755 casecheck.sh
  
 $ ./casecheck.sh 
 ## OUTPUT
+
 ![image](https://github.com/user-attachments/assets/ba219456-e34d-46cd-9cf5-27ab8fb2977c)
 
  
@@ -829,6 +831,7 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
+
  
 ![image](https://github.com/user-attachments/assets/07328cfd-dde9-4524-a86c-6a5894c309f8)
 
@@ -844,6 +847,7 @@ done
  ```
  
 $ chmod 755 forin1.sh
+
 ![image](https://github.com/user-attachments/assets/4b5f1e78-8247-4cb9-8263-6921180e4085)
 
  
@@ -859,6 +863,7 @@ done
  
 $ chmod 755 forin2.sh
 $ ./forin2.sh 
+
 ![image](https://github.com/user-attachments/assets/6e88d24c-b494-4d7a-af50-8ac80b042bf6)
 
 
@@ -873,6 +878,7 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
+
 ![image](https://github.com/user-attachments/assets/59ad5c4c-0bd3-4855-8d21-8d9dcba7e063)
 
 cat forinfile.sh 
@@ -944,6 +950,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
+ 
 ![image](https://github.com/user-attachments/assets/0cb94f3b-f2dc-4eb3-a18f-4ed866ca7e08)
 
  
@@ -966,6 +973,7 @@ $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
 ## OUTPUT
+
 ![image](https://github.com/user-attachments/assets/992d70ac-290c-4b57-b366-031600d2d9ab)
 
 cat forbreak.sh 
@@ -988,6 +996,7 @@ $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
 ## OUTPUT
+
 ![image](https://github.com/user-attachments/assets/e4d7b54b-1130-4cb5-99e6-0596413267fc)
 
 cat exread.sh 
@@ -1003,6 +1012,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+
 ![image](https://github.com/user-attachments/assets/3fd572ea-58be-46cf-818b-e2234d9fa99b)
 
 
@@ -1044,7 +1054,8 @@ fi
 ![image](https://github.com/user-attachments/assets/28713a0b-050f-49c4-abcc-060e1eb9d085)
 
  ./funcex.sh 1 2
- ![image](https://github.com/user-attachments/assets/537cc739-f609-4af7-8dcc-3a2e44278930)
+ 
+![image](https://github.com/user-attachments/assets/537cc739-f609-4af7-8dcc-3a2e44278930)
 
  
 cat argshift.sh
